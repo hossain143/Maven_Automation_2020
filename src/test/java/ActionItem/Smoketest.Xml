@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automtiaon Test Suite" parallel="none" >
+    <test name="Yahoo Test">
+        <parameter name="broeser" value="Chrome"/>
+        <classes>
+            <class name="Class_action.GoogleSearch" />
+            <class name="Class_action.Yahoo_sign_Abstract" />
+        </classes>
+    </test>
+</suite>
